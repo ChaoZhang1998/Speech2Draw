@@ -1,2 +1,2 @@
 # Speech2Draw
-Speech and Guess What will Draw on the Screen
+Speech and Guess Who is Drawing on the Screen.
