@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="chaoZHANG">
+    <title>Speech2Draw</title>
+
+    <script src="./scripts/libs/p5.min.js"></script>
+    <script src="./scripts/libs/p5.sound.js"></script>
+    <script src="./scripts/libs/p5.speech.js"></script>
+    <script src="./scripts/libs/compromise.min.js"></script>
+    <script src="./scripts/libs/compromise-numbers.min.js"></script>
+    <script src="./scripts/libs/rita-full.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="record-btn">record</button>
+    <button id="clear-btn">clear</button>
+    <button id="save-btn">save</button>
+
+    <br><br>
+    <span id='message'></span>
+    <br><br>
+
+    <script src="./scripts/sketch.js"></script>
+    <script src="./scripts/parse-text.js"></script>
+</body>
+
+</html>
