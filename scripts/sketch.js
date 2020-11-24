@@ -194,6 +194,7 @@ function draw() {
             model.generate(gotStroke);
         } else {
             strokePath = null;
+            model.generate(gotStroke);
             times[model_name]--;
             if (times[model_name] === 0) {
                 model_counter++;
